@@ -109,6 +109,8 @@ function initialize() {
 	var mapProp = {
 		center:new google.maps.LatLng(-34.5950839,-58.4028298),
 		zoom:16,
+		scrollwheel: false,
+		draggable: false,
 		mapTypeId:google.maps.MapTypeId.ROADMAP,
 		disableDefaultUI:true
 	};
