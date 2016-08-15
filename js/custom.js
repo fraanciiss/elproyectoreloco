@@ -107,7 +107,7 @@ $(function(){
 
 function initialize() {
 	var mapProp = {
-		center:new google.maps.LatLng(-34.591604,-58.394264),
+		center:new google.maps.LatLng(-34.5950839,-58.4028298),
 		zoom:16,
 		mapTypeId:google.maps.MapTypeId.ROADMAP,
 		disableDefaultUI:true
