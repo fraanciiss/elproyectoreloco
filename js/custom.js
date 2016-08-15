@@ -104,21 +104,3 @@ $(function(){
   })
 
 });
-
-function initialize() {
-	var mapProp = {
-		center:new google.maps.LatLng(-34.5950839,-58.4028298),
-		zoom:16,
-		scrollwheel: false,
-		draggable: false,
-		mapTypeId:google.maps.MapTypeId.ROADMAP,
-		disableDefaultUI:true
-	};
-	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-	var marker=new google.maps.Marker({
-	  position:map.center,
-	});
-
-	marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
